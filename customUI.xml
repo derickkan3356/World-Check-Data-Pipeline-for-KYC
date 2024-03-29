@@ -1,0 +1,15 @@
+<customUI xmlns:x2="NitroPDFProfessional.MSOfficeAddin13" xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="rbx_onLoad">
+  <ribbon>
+    <tabs>
+	    <tab id="KYC" label="KYC" insertBeforeQ="x2:NitroTab" getVisible="visibleKYC">
+				<group id="WorldCheck" label="World Check" autoScale="true" getVisible="visibleWorldCheck">
+					<menu id="world_check_screening_Group" label="world check screening" imageMso="ExportOdbcDatabase">
+						<button id="button_ImportWCdata" label="Import world check Data" imageMso="ExportOdbcDatabase" onAction="Button_onAction" visible="true"/>
+						<button id="button_ExportWCtemplate" label="Export world check Template" imageMso="ExportOdbcDatabase" onAction="Button_onAction" visible="true"/>
+						<button id="button_ExportWCdata" label="Export world check Data" imageMso="ExportOdbcDatabase" onAction="Button_onAction" visible="true"/>
+					</menu>
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>

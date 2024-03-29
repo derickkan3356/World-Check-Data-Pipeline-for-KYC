@@ -1,0 +1,2 @@
+# World-Check-Data-Pipeline-for-KYC
+ This GitHub repository demonstrates a KYC compliance data pipeline, showcasing the integration between Excel VBA and SQL Server. It features code for importing and exporting World Check screening data, managing investor information, and automating workflows within Excel through custom UI elements. Primarily, it serves as a showcase of my contributions to automating data handling processes for KYC compliance purposes, including detailed examples of VBA scripts, SQL queries, and Excel template management.
