@@ -12,6 +12,7 @@ The project consists of a VBA module, SQL queries, a custom Excel UI, and severa
 **customUI.xml**: XML definition for a custom Excel ribbon UI, facilitating easy access to the VBA functions.
 
 **Button callback.bas**: VBA code connecting the custom UI buttons with their respective VBA functions.
+![Ribbon button](https://github.com/derickkan3356/World-Check-Data-Pipeline-for-KYC/blob/main/ribbon%20button.png)
 
 **Excel Templates**: Located in the Template folder, these Excel files serve as templates for uploading data to SQL Server, extracting data for third-party screening, and formatting screening results for re-import.
 
